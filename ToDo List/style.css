@@ -1,0 +1,60 @@
+body {
+    background-color: beige;
+}
+
+.header-div {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 250%;
+    padding: 1%;
+}
+
+
+.hero-div{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 250%;
+    padding: 1%;
+}
+.hero-bouton {
+    background-color: crimson;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+}
+.hero-bouton:hover {
+    opacity: 75%;
+}
+
+.ToDoList-liste {
+    display: flex;
+    flex-direction: column;
+}
+.ToDoList-ToDo {
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    border: none;
+    background-color: lightblue;
+    font-size: large;
+}
+
+
+.footer-div {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 250%;
+    padding: 1%;
+}
