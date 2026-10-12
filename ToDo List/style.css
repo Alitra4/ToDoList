@@ -36,8 +36,9 @@ body {
 }
 
 .ToDoList-liste {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
 }
 .ToDoList-ToDo {
     padding: 1%;
