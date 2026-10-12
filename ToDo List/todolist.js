@@ -13,8 +13,8 @@ function addToDoList(ouioui) {
 const buttonTag = document.querySelector("button");
 buttonTag.addEventListener("click", function () {
     const inputTag = document.querySelector("input");
-    // if (inputTag.value != ""){
+    if (inputTag.value != ""){
         addToDoList(inputTag.value);
         inputTag.value = ""
-    // }
+    }
 });
